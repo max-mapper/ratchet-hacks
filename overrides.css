@@ -1,0 +1,36 @@
+.bar-title {
+  background-color: #96C7A2;
+  background-image: -webkit-linear-gradient(top, #96C7A2 0, #80BA93 100%);
+  background-image: linear-gradient(to bottom, #96C7A2 0, #80BA93 100%);
+  border-bottom: 1px solid #50735F;
+}
+
+.bar-title [class*="button"] {
+  background-color: #96C7A2;
+  background-image: -webkit-linear-gradient(top, #96C7A2 0, #6FA682 100%);
+  background-image: linear-gradient(to bottom, #96C7A2 0, #6FA682 100%);
+  border: 1px solid #50735F;
+}
+
+.bar-title .segmented-controller {
+  background-color: #96C7A2;
+  background-image: -webkit-linear-gradient(top, #96C7A2 0, #6FA682 100%);
+  background-image: linear-gradient(to bottom, #96C7A2 0, #6FA682 100%);
+  border: 1px solid #50735F;
+}
+
+.bar-title .segmented-controller li {
+  border-left: 1px solid #50735F;
+}
+
+.bar-title .segmented-controller li.active {
+  background-color: #65A378;
+}
+
+/*
+base color (top of gradient): 96C7A2
+bottom of header gradient   : 6FA682
+bottom of button gradient   : 80BA93
+border color                : 50735F
+:active button background   : 65A378
+*/
